@@ -201,7 +201,7 @@ body {
 
 .dates {
     width: 70%;
-    border: 2px solid red;
+    
     margin: 20px auto;
 }
 
@@ -231,4 +231,8 @@ footer {
     background-color: lightblue;
 }
 
+.span {
+    text-align: center;
+    margin:0 auto;
+}
 

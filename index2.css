@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Goudy;
+    src: url(fonts/Goudy.otf);
+}
+
+
+html {
+	 background: url(images/6.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.front-menu {
+   position: absolute;
+   top: 0px;
+   left: 0px; 
+   width: 300px;
+   height: 100%;
+    color: white;
+   padding: 5px;
+   background-color: black;
+   opacity: 0.6;
+}
+
+.band-name {
+	font-family: Goudy;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 40px;
+
+}
+
+.main-paragraph {
+	width: 80%;
+	font-family: Goudy;
+	font-size: 14px;
+	margin:0 auto;
+	font-style: italic;
+}
+
+.main-paragraph:hover {
+	color: red;
+	font-size: 15px;
+}
+
+.main-nav {
+	
+	margin: 40px;
+}
+
+.main-ul-nav li {
+	margin-bottom: 40px;
+}
+
+.main-ul-nav a {
+	font-size: 14px;
+	font-family: Goudy !important;
+	text-decoration: none;
+	color: white;
+}
+
+.main-ul-nav a:hover {
+	color: red ;
+	font-size: 16px;
+}
+
+
+/*navbar collapse*/
+
+
+.toggle-nav {
+	display: none;
+}
+
+/*----- Menu -----*/

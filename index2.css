@@ -1,0 +1,275 @@
+@font-face {
+    font-family: Goudy;
+    src: url(fonts/Goudy.otf);
+}
+
+
+html {
+	 background: url(images/6.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.front-menu {
+   position: absolute;
+   top: 0px;
+   left: 0px; 
+   width: 300px;
+   height: 100%;
+    color: white;
+   padding: 5px;
+   background-color: black;
+   opacity: 0.6;
+}
+
+.media-links {
+	position: absolute;
+	top: 450px;
+	right: 0px;
+	width: 100px;
+	height: 200px;
+	background-color: black;
+	opacity: 0;
+
+	-webkit-transition: opacity 3s;
+   -moz-transition: opacity 3s;
+   -o-transition: opacity 3s;
+   transition: opacity 3s;
+
+	text-align: center;
+
+}
+.media-links img {
+	margin-top: 30px;
+}
+
+.band-name {
+	font-family: Goudy;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 40px;
+    color: white;
+
+}
+.band-name:hover {
+    font-size: 23px;
+    color: red;
+}
+
+.main-paragraph {
+	width: 80%;
+	font-family: Goudy;
+	font-size: 14px;
+	margin:0 auto;
+	font-style: italic;
+}
+
+.main-paragraph:hover {
+	color: red;
+	font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+.main-ul-nav li {
+	margin-bottom: 40px;
+}
+
+.main-ul-nav a {
+	font-size: 14px;
+	font-family: Goudy !important;
+	text-decoration: none;
+	color: white;
+}
+
+
+/*navbar collapse*/
+
+
+.toggle-nav {
+	display: none;
+}
+
+/*----- Menu -----*/
+@media screen and (min-width: 480px) {
+   .main-nav {
+	
+	margin: 40px;
+	}
+}
+ 
+.main-nav ul {
+    display:inline-block;
+}
+ 
+/*.main-nav li {
+    margin:0px 50px 0px 0px;
+    float:left;
+    list-style:none;
+    font-size:17px;
+}*/
+ 
+.main-nav li:last-child {
+    margin-right:0px;
+}
+ 
+.main-nav a {
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    color: white;
+    transition:color linear 0.15s;
+    text-decoration: none !important;
+}
+ 
+.main-nav a:hover, .main-nav .current-item a {
+    text-decoration:none;
+    color:red;
+    font-size: 16px;
+}
+ 
+
+ 
+/*----- Responsive -----*/
+
+/*@media screen and (max-width: 1150px) {
+    .wrap {
+        width:90%;
+    }
+}*/
+
+
+ 
+
+ 
+@media screen and (max-width: 860px) {
+    .main-nav {
+        position:relative;
+        display:inline-block;
+    }
+ 
+    .main-nav ul.main-ul-nav {
+        display:none;
+    }
+ 
+    .main-nav ul {
+        width:100%;
+        position:absolute;
+        top:120%;
+        left:0px;
+        padding:10px 18px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+    }
+ 
+    .main-nav ul:after {
+        width:0px;
+        height:0px;
+        position:absolute;
+        top:0%;
+        left:22px;
+        content:'';
+        transform:translate(0%, -100%);
+        border-left:7px solid transparent;
+        border-right:7px solid transparent;
+        border-bottom:7px solid #303030;
+    }
+ 
+    .main-nav li {
+        margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+    }
+ 
+    .main-nav a {
+        display:block;
+    }
+ 
+    .toggle-nav {
+        padding:20px;
+        /*float:left;*/
+        display:inline-block;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#e5e5f2;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:#777;
+        margin:0 auto;
+        font-size:20px;
+        transition:color linear 0.15s;
+    }
+ 
+    .toggle-nav:hover, .toggle-nav.main-ul-nav {
+        text-decoration:none;
+        /*color:#66a992;*/
+    }
+ 
+}
+
+
+.modal-content {
+    background-color: black ;
+    opacity: 0;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5%;
+    border: 1px solid #888;
+    width: 25%;
+    color: white;
+    font-family: Goudy;
+    
+}
+
+
+
+.offer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+.offer-link:hover {
+    color: red;
+    font-size: 18px;
+
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

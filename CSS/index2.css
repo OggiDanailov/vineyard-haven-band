@@ -1,11 +1,11 @@
 @font-face {
     font-family: Goudy;
-    src: url(fonts/Goudy.otf);
+    src: url(../fonts/Goudy.otf);
 }
 
 
 html {
-	 background: url(images/6.jpg) no-repeat center center fixed; 
+	 background: url(../images/6.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,7 +16,7 @@ html {
 .front-menu {
    position: absolute;
    top: 0px;
-   left: 0px; 
+   left: 0px;
    width: 300px;
    height: 100%;
     color: white;
@@ -97,41 +97,41 @@ html {
 /*----- Menu -----*/
 @media screen and (min-width: 480px) {
    .main-nav {
-	
+
 	margin: 40px;
 	}
 }
- 
+
 .main-nav ul {
     display:inline-block;
 }
- 
+
 /*.main-nav li {
     margin:0px 50px 0px 0px;
     float:left;
     list-style:none;
     font-size:17px;
 }*/
- 
+
 .main-nav li:last-child {
     margin-right:0px;
 }
- 
+
 .main-nav a {
     text-shadow:0px 1px 0px rgba(0,0,0,0.5);
     color: white;
     transition:color linear 0.15s;
     text-decoration: none !important;
 }
- 
+
 .main-nav a:hover, .main-nav .current-item a {
     text-decoration:none;
     color:red;
     font-size: 16px;
 }
- 
 
- 
+
+
 /*----- Responsive -----*/
 
 /*@media screen and (max-width: 1150px) {
@@ -141,19 +141,19 @@ html {
 }*/
 
 
- 
 
- 
+
+
 @media screen and (max-width: 860px) {
     .main-nav {
         position:relative;
         display:inline-block;
     }
- 
+
     .main-nav ul.main-ul-nav {
         display:none;
     }
- 
+
     .main-nav ul {
         width:100%;
         position:absolute;
@@ -164,7 +164,7 @@ html {
         border-radius:3px;
         background:#303030;
     }
- 
+
     .main-nav ul:after {
         width:0px;
         height:0px;
@@ -177,17 +177,17 @@ html {
         border-right:7px solid transparent;
         border-bottom:7px solid #303030;
     }
- 
+
     .main-nav li {
         margin:5px 0px 5px 0px;
         float:none;
         display:block;
     }
- 
+
     .main-nav a {
         display:block;
     }
- 
+
     .toggle-nav {
         padding:20px;
         /*float:left;*/
@@ -201,12 +201,12 @@ html {
         font-size:20px;
         transition:color linear 0.15s;
     }
- 
+
     .toggle-nav:hover, .toggle-nav.main-ul-nav {
         text-decoration:none;
         /*color:#66a992;*/
     }
- 
+
 }
 
 
@@ -220,7 +220,7 @@ html {
     width: 25%;
     color: white;
     font-family: Goudy;
-    
+
 }
 
 
@@ -229,7 +229,7 @@ html {
     color: white;
     text-decoration: none;
     font-size: 15px;
-    
+
 }
 
 .offer-link:hover {
@@ -241,35 +241,3 @@ html {
 .close:hover {
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

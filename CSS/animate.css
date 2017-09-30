@@ -1,0 +1,77 @@
+.mainImage2 {
+    /* The image used */
+    background-image: url("../images/VHBandSign2.jpg");
+    /* Full height */
+    height: 45%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trumpet {
+	-webkit-animation-delay: 1s;
+}
+
+.cello {
+	-webkit-animation-delay: 1.3s;
+}
+
+.trombone {
+	-webkit-animation-delay: 1.6s;
+}
+
+
+.violin {
+	-webkit-animation-delay: 1.9s;
+}
+
+.tuba {
+	-webkit-animation-delay: 2.3s;
+}
+
+.drum {
+	-webkit-animation-delay: 2.6s;
+}
+
+.viola {
+	-webkit-animation-delay: 2.9s;
+}
+
+.french {
+	-webkit-animation-delay: 3.3s;
+}
+
+.piano {
+	-webkit-animation-delay: 3.6s;
+}
+
+
+.instruments {
+	width: 50%;
+	/*border: 2px solid red;*/
+	padding: 10px;
+	margin: 40px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

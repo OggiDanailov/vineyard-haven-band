@@ -26,7 +26,20 @@
 	</nav>
 	<div class='bar'></div>
 
-	<div class='contactForm'>
+	
+
+	<div class='wrapper'>
+	<div id="formview">
+		<form method="POST" action="http://formspree.io/ogidan@abv.bg">
+	  		<input type="email"  placeholder="Your email" name="_replyto">
+	  		<textarea name="message" placeholder="Your message"></textarea>
+	  		<button type="submit" value="Send">Send</button>
+		</form>
+	</div>
+</div>
+
+
+<div class='contactForm'>
 		<p>address: The Vineyard Haven Band
 		P.O. Box 2187
 		Vineyard Haven, MA 02568</p>
@@ -34,9 +47,107 @@
 
 	</div>
 
+<style>
 
-	<div class='footer'>
-	<footer>
-		<h5>Vineyard Haven Band 1868</h5>
-	</footer>
-</div>
+@font-face {
+    font-family: Adler;
+    src: url(../fonts/Adler.ttf);
+}
+
+.wrapper, .contactForm {
+	width: 60%;
+	/*border:2px dashed;*/
+	margin: 20px auto;
+	box-shadow: 15px 15px 12px teal;
+	
+}
+
+#formview {
+	/*display:inline-block;*/
+	/*border:6px solid orange;*/
+	height: 400px;
+	margin: 150px auto;
+
+	
+}
+
+input[type=email] {
+	font-family: Adler;
+	height: 30px;
+  /*border: 1px dashed black;*/
+  border: none;
+  /*border-radius: 4%;*/
+  background-color: #F6D494;
+  margin-left: 50px;
+display: block;
+margin: 30px auto;
+box-shadow: 10px 10px 12px teal;
+font-size: 18px;
+}
+input::placeholder {
+	color: black;
+}
+textarea::placeholder {
+	color: black;
+}
+
+
+
+
+
+textarea {
+	font-family: Adler;
+	border: none;
+	width: 400px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 10px 10px 12px teal;
+	background-color: #F6D494;
+	font-size: 18px;
+
+}
+
+button[type=submit] {
+	font-family: Adler;
+	font-size: 18px;
+	width: 100px;
+	height: 30px;
+	margin: 20px auto;
+	background-color: #F6D494;
+	/*border: 1px dashed;*/
+	display: block;
+	box-shadow: 10px 10px 12px teal;
+	border: none;
+}
+.contactForm {
+	background-color: #F6D494;
+	border: none;
+	/*margin-top: 80px;*/
+
+
+}
+
+
+</style>
+
+<div class='footer'>
+			<footer>
+				<div class='footer-inside'>
+					<img src="../Logos/star.svg" width='30' height='30'>
+					<img src="../Logos/star.svg" width='30' height='30'>
+				<a href="https://www.facebook.com/vineyardhavenband" target="_blank">
+					<img class='logo-footer' src="../Logos/facebook.png" width='30' height='30'>
+				</a>
+				<img src="../Logos/star.svg" width='30' height='30'>
+
+				<img src="../Logos/star.svg" width='30' height='30'>
+				<a href="https://www.facebook.com/vineyardhavenband" target="_blank">
+					<img class='logo-footer' src="../Logos/twitter.png" width='30' height='30'>
+				</a>
+					<img src="../Logos/star.svg" width='30' height='30'>
+					<img src="../Logos/star.svg" width='30' height='30'>
+					<h6 class='VHB-footer'>Vineyard Haven Band 1868</h6>
+				</div>
+			</footer>
+		</div>

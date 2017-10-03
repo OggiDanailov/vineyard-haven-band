@@ -5,7 +5,7 @@
 
 
 html {
-	 background: url(../images/6.jpg) no-repeat center center fixed; 
+	 background: url(../images/6-cropped.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,11 +18,11 @@ html {
    top: 0px;
    left: 0px;
    width: 300px;
-   height: 100%;
-    color: white;
+   height: 110%;
+    color: black;
    padding: 5px;
-   background-color: black;
-   opacity: 0.6;
+   background-color: lightblue;
+   opacity: 1;
 }
 
 .media-links {
@@ -48,28 +48,32 @@ html {
 
 .band-name {
 	font-family: Goudy;
-	font-size: 22px;
+	font-size: 28px;
 	text-align: center;
-	margin-top: 40px;
-    color: white;
+	margin-top: 60px;
+    color: black;
+    font-weight: bold;
+    text-shadow:0px 4px 4px rgba(40,150,160,0.5);
 
 }
 .band-name:hover {
-    font-size: 23px;
+    font-size: 28px;
     color: red;
 }
 
 .main-paragraph {
 	width: 80%;
 	font-family: Goudy;
-	font-size: 14px;
-	margin:0 auto;
+	font-size: 18px;
+	margin:50px auto;
 	font-style: italic;
+    color: black;
+    text-align: center;
 }
 
 .main-paragraph:hover {
 	color: red;
-	font-size: 15px;
+	font-size: 19px;
     cursor: pointer;
 }
 
@@ -80,10 +84,10 @@ html {
 }
 
 .main-ul-nav a {
-	font-size: 14px;
+	font-size: 18px;
 	font-family: Goudy !important;
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 
@@ -119,7 +123,7 @@ html {
 
 .main-nav a {
     text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-    color: white;
+    color: black;
     transition:color linear 0.15s;
     text-decoration: none !important;
 }
@@ -127,7 +131,7 @@ html {
 .main-nav a:hover, .main-nav .current-item a {
     text-decoration:none;
     color:red;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
@@ -211,14 +215,14 @@ html {
 
 
 .modal-content {
-    background-color: black ;
+    background-color: lightblue ;
     opacity: 0;
     margin: 0 auto;
     padding: 20px;
     border-radius: 5%;
     border: 1px solid #888;
     width: 25%;
-    color: white;
+    color: black;
     font-family: Goudy;
 
 }
@@ -226,9 +230,9 @@ html {
 
 
 .offer-link {
-    color: white;
+    color: black;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
 
 }
 

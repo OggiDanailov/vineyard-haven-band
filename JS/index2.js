@@ -24,7 +24,7 @@ var modalContent = document.getElementsByClassName("modal-content")[0];
 var currentOpacity = 0;
 
 function opacityIncrease(){
-	if (currentOpacity <= 0.7) {
+	if (currentOpacity <= 1) {
 		currentOpacity += .01;
 		modalContent.style.opacity = currentOpacity;
 	} else {

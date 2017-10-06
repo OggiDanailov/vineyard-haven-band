@@ -345,11 +345,31 @@ footer {
 
 }
 
+.contact-form-name {
+    width: 40%;
+    margin: 30px auto;
+    border: 3px solid;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+.message-form {
+    font-family: Goudy;
+    width: 40%;
+    margin: 50px auto;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+
 .email, .instrument{
  margin: 30px;
  width: 150px;
  border: 3px solid;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 
 .message {
@@ -369,13 +389,6 @@ footer {
     border-radius: 2%;
 }
 
-.message-form {
-    font-family: Goudy;
-    width: 40%;
-    margin: 150px auto;
-    border: 3px solid;
-    border-radius: 2%;
-}
 
  
 

@@ -4,24 +4,27 @@
  .contact-body {
     background-image: url('../images/VHband.jpg');
     background-position: center;
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
+     background-attachment: fixed;
     background-size: cover;
+    min-height: 1200px;
  }
 
  .second-layer {
  	width: 80%;
  	border:2px solid ;
- 	margin: 0 auto;
+ 	margin: 610 auto;
  	display: flex;
  	flex-wrap: wrap;
  	justify-content: center;
+
  }
 
 
- .modal {
+ #map, .modal {
  	margin: 0 30px;
- 	width: 250px;
- 	height: 150px;
+ 	width: 25%;
+ 	height: 20%;
  	border: 2px solid red;
  	background-color: blue;
  	/*border-radius: 30%;*/

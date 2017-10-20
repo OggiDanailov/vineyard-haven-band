@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 @font-face {
     font-family: Goudy;
     src: url(../fonts/Goudy.otf);
@@ -98,15 +102,62 @@ html {
 	display: none;
 }
 
-/*----- Menu -----*/
-@media screen and (min-width: 480px) {
-   .main-nav {
+.modal-content {
+    background-color: lightblue ;
+    opacity: 0;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5%;
+    border: 1px solid #888;
+    width: 25%;
+    color: black;
+    font-family: Goudy;
 
-	margin: 40px;
-	}
 }
 
+
+/*----- Menu -----*/
+@media screen and (max-width: 480px) {
+    .front-menu {
+       position: absolute;
+       top: 0px;
+       left: 0px;
+       width: 150px;
+       height: 130%;
+        color: black;
+       padding: 5px;
+       background-color: lightblue;
+       opacity: 1;
+    }
+    .vineyard-band {
+        margin-top: -30px;
+    }
+    .main-nav {
+    	margin: 0;
+    	}
+    .modal-content {        
+        width: 40%;
+    }
+    .modal {
+        margin-left: 100px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .modal-content {        
+        width: 40%;
+    }
+    .modal {
+        margin-left: 200px;
+    }
+
+    }
+
 .main-nav ul {
+    font-size: 26px;
+    /*border: 3px solid red;*/
     display:inline-block;
 }
 
@@ -147,7 +198,7 @@ html {
 
 
 
-
+/*
 @media screen and (max-width: 860px) {
     .main-nav {
         position:relative;
@@ -194,7 +245,7 @@ html {
 
     .toggle-nav {
         padding:20px;
-        /*float:left;*/
+        
         display:inline-block;
         box-shadow:0px 1px 1px rgba(0,0,0,0.15);
         border-radius:3px;
@@ -208,24 +259,14 @@ html {
 
     .toggle-nav:hover, .toggle-nav.main-ul-nav {
         text-decoration:none;
-        /*color:#66a992;*/
+        
     }
 
-}
+}*/
 
 
-.modal-content {
-    background-color: lightblue ;
-    opacity: 0;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 5%;
-    border: 1px solid #888;
-    width: 25%;
-    color: black;
-    font-family: Goudy;
 
-}
+
 
 
 

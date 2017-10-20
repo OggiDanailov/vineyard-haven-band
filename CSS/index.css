@@ -27,7 +27,7 @@ body {
     /* The image used */
     background-image: url("../images/6-cropped.JPG");
     /* Full height */
-    height: 55%;
+    height: 35%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -318,13 +318,15 @@ footer {
 }
 
 
+
+
 .flex-container {
     display: -webkit-flex;
     display: flex;
     width: 90%;
     height: 550px;
     /*background-color: lightgrey;*/
-    margin: 80px auto;
+    margin: 160px auto;
 }
 
 .anniversary, .truck-image {
@@ -342,6 +344,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 
 }
 

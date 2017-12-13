@@ -324,7 +324,7 @@ footer {
     display: -webkit-flex;
     display: flex;
     width: 90%;
-    height: 550px;
+    height: 950px;
     /*background-color: lightgrey;*/
     margin: 160px auto;
 }
@@ -334,6 +334,7 @@ footer {
     width: 45%;
     margin: 20px 0 0 20px;
     padding: 10px;
+    /*border: 2px solid;*/
 }
 
 .truck-image {
@@ -413,6 +414,19 @@ footer {
 }
 .media-links img {
     margin-top: 30px;
+}
+
+.december-link {
+ font-size: 18px;
+}
+
+
+.december-link:hover {
+    color: red;
+}
+
+#december-link-line2 {
+    padding-left: 200px;
 }
 
 
